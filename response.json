@@ -1,0 +1,67 @@
+[
+	{
+		"List_of_articles":[{
+			"Article":[
+				{
+					"id": "1",
+					"Title": "Microsoft reveals robots",
+					"Image": "image1.jpg",
+					"Body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+					"Date_Published": "17/05/2016",
+					"Category_Id":"1"
+				},
+				{
+					"id": "2",
+					"Title": "Apple new iphone 7",
+					"Image": "image2.jpg",
+					"Body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"Date_Published": "18/05/2016",
+					"Category_Id":"1"
+				},
+				{
+					"id": "3",
+					"Title": "Champions to 18 years",
+					"Image": "image3.jpg",
+					"Body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"Date_Published": "17/05/2016",
+					"Category_Id":"2"
+				},
+				{
+					"id": "4",
+					"Title": "The wonderful Bulgaria",
+					"Image": "image4.jpg",
+					"Body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+					"Date_Published": "19/05/2016",
+					"Category_Id":"3"
+				},
+				{
+					"id": "5",
+					"Title": "Eat Fresh Food Everyday",
+					"Image": "image5.jpg",
+					"Body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+					"Date_Published": "19/05/2016",
+					"Category_Id":"2"
+				}																	
+			]
+		}],
+
+		"List_of_categories":[{
+			"Category":[
+				{
+					"Name": "tech",
+					"Id":"1"
+				},
+				{
+					"Name": "sport",
+					"Id":"2"
+				},
+				{
+					"Name": "travel",
+					"Id":"3"
+				}								
+			]
+		}]
+	}
+]
+
+

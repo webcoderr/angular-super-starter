@@ -1,0 +1,65 @@
+<div class="col-md-8">
+    <h1 class="page-header">
+        Tech Articles
+    </h1>
+    <ul class="list-group">
+        <li class="list-group-item" ng-repeat="item in article.List_of_articles[0].Article | filter: query">
+            <div ng-show="item.Category_Id==1">
+                <h2>
+                    <a ng-href="#/articles/{{item.id}}">{{item.Title}}</a>
+                </h2>
+                    <p><span class="glyphicon glyphicon-time"></span> Posted on {{item.Date_Published | date: "yyyy-MM-dd"}}</p>                
+                <hr>
+                <img class="img-responsive" src="images/{{item.Image}}">
+                <hr>                 
+                <p>{{item.Body}}</p>
+                <a class="btn btn-primary" ng-href="#/articles/{{item.id}}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+
+                <hr>
+            </div>
+        </li>
+    </ul>
+
+</div>
+
+<div class="col-md-4">
+
+    <div class="well">
+        <h4>Article Search</h4>
+        <div class="input-group">
+            <input type="text" ng-model="query" class="form-control">
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+            </button>
+            </span>
+        </div>
+    </div>
+
+    <div class="well">
+        <h4>All Articles</h4>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="list-unstyled">
+                    <li style="margin-top: 5px;" ng-repeat="item in article.List_of_articles[0].Article | orderBy:'-id'">
+                        <a ng-href="#/articles/{{item.id}}">{{item.Title}}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="well">
+        <h4>Categories</h4>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="list-unstyled">
+                    <li style="margin-top: 5px;" ng-repeat="item1 in article.List_of_categories[0].Category">
+                        <a ng-href="#/{{item1.Name}}">{{item1.Name}}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
