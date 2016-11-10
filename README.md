@@ -2,7 +2,7 @@
 
 Hello there!
 
-This is a test app. You can use it as a base of building other more complex applications.
+You can use it as a base of building other more complex applications.
 
 For example in building a website for news. There are articles and categories for them.
 
